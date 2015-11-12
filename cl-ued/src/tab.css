@@ -1,0 +1,62 @@
+#tab:before,
+.clui-tabs:after {
+  content: " ";
+  display: table;
+}
+.clui-tabs:after,
+.clui-tabs:after {
+  clear: both;
+}
+.clui-tabs{
+	margin-bottom: 0;
+  	padding-left: 0;
+  	list-style: none;
+  	*zoom: 1;
+  	border-bottom: 1px solid #C5B6B6;
+}
+.clui-tabs > ul{
+	
+}
+.clui-tabs > ul > li{
+	position: relative;
+  	display: block;
+}
+.clui-tabs > ul > li > a{
+	display: block;
+  	padding: 5px 15px;
+}
+.clui-tabs > ul > li > a:hover,
+.clui-tabs > ul > li > a:focus{
+	text-decoration: none;
+	background-color: rgb(239, 239, 243);
+}
+.clui-tabs > ul > li{
+  	float: left;
+  	margin-bottom: -1px;
+}
+.clui-tabs > ul > li > a {
+  	margin-right: 2px;
+  	line-height: 20px;
+  	border-radius: 4px 4px 0 0;
+  	color: #555555;
+  	background: rgb(220, 220, 222);
+}
+.clui-tabs > ul > li > a:hover,
+.clui-tabs > ul > li > a:focus {
+  	border-color: #eeeeee #eeeeee #dddddd;
+}
+.clui-tabs > ul > li.active > a,
+.clui-tabs > ul > li.active > a:hover,
+.clui-tabs > ul > li.active > a:focus {
+  	color: rgb(128, 128, 137);
+  	background-color: #E8E9EF;
+  	border: 1px solid #C5B6B6;
+  	border-bottom-color: transparent;
+  	cursor: default;
+}
+.clui-panels{
+	padding:8px 1px;
+}
+.clui-panel-content{
+	display: none;
+}

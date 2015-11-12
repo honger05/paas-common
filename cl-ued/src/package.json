@@ -1,0 +1,16 @@
+{
+  "name": "dist",
+  "description": "系统主界面模块",
+  "author": "honger.zheng",
+  "version": "1.0.3",
+  "spm": {
+    "output": [
+      "clui.js",
+      "plupload.flash.swf"
+    ],
+    "buildArgs": "--idleading cl-ued/{{name}}/{{version}} --ignore $,bui,common,css-main,css-bui,css-resetui,clui,handlebars",
+    "dependencies": {
+      "import-style": "~1.0.0"
+    }
+  }
+}

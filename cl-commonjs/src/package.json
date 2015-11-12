@@ -1,0 +1,14 @@
+{
+  "name": "dist",
+  "description": "系统主界面模块",
+  "author": "honger.zheng",
+  "version": "1.1.3",
+  "spm": {
+    "output": [
+      "common.js",
+      "bizcommon.js",
+      "filter.js"
+    ],  
+    "buildArgs": "--idleading cl-commonjs/{{name}}/{{version}} --ignore $,common,jslet-ui,jslet-data,emqttws,xlsx,clui,$indexeddb"
+  }
+}

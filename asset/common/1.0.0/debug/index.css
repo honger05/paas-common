@@ -1,0 +1,240 @@
+/* clui-page ҳ����ּ�*/
+.body{
+	background: #fff;
+	padding: 5px 0 0 0;
+	min-width:980px;
+	min-height: 600px;
+}
+.clui-page{
+	width: 99%;
+	height:99%;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #677985;
+	box-shadow: 0px 0px 5px #677985;
+	background-color: rgb(233, 237, 241);
+}
+.clui-page-header{
+	position:relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: 3px solid #d22229;
+	margin-bottom:3px;
+	color: #F9F6F6;
+	font: 12px/1.1 tahoma,arial,"Hiragino Sans GB",\5b8b\4f53;
+}
+.t-logo{
+	width:128px;
+	height:50px;
+	background: url("img/tlogo.png") no-repeat 50% 40%;
+	display: inline-block;
+	
+}
+.d-logo{
+	width:128px;
+	height:50px;
+	background: url("img/dlogo.png") no-repeat 50% 40%;
+	display: inline-block;
+}
+.w-logo{
+	width:128px;
+	height:50px;
+	background:url("img/wlogo.png") no-repeat 50% 40%;
+	display: inline-block;
+}
+.clui-page-wrapper{
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #677985;
+}
+.clui-page-wrapper-nav{
+	position: absolute;
+	width: 160px;
+	height: 100%;
+	border-right: 1px solid #C2C0C0;
+	background-color: #EFEFF3;
+	background-image: linear-gradient(to left, #ffffff 0%, #EFEFF3 100%);
+	z-index: 2;
+}
+.wrapper-nav-header{
+	position: relative;
+	width: 100%;
+	height: 20px;
+	padding: 2px 12px;
+	border-bottom: 1px solid #fff;
+}
+.toggle-nav{
+	position: absolute;
+	top:1px;
+	right:16px;
+}
+.clui-page-wrapper-content{
+	margin-left: 160px;
+	padding: 0 1px 1px 0;
+	height: 100%;
+	background-color: #fff;
+	z-index: 1;
+}
+.clui-box-footer{
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #907F90;
+	line-height: 2;
+	padding: 0;
+	margin: 0;
+	font: 11px/2 tahoma,arial,"Hiragino Sans GB",\5b8b\4f53;
+}
+
+.clui-page-header > ul{
+	display:block;
+	position:absolute;
+	top:10px;
+	right:0;
+	margin-bottom:0;
+}
+.clui-page-header > ul > li{
+	float:left;
+}
+.clui-page-header > ul > li > a{
+	padding:0 10px;
+	border-left:1px solid rgb(173, 152, 152);
+	color: #F9F6F6;
+}
+.bandan{
+	border-left:0!important;
+}
+
+a{
+	cursor: pointer;
+	color: #5C4444;
+}
+a:hover, a:focus,a:link {
+	color: #5C4444;
+	text-decoration: none;
+}
+
+.header-right{
+	position: absolute;
+	top:10px;
+	right:10px;
+}
+.header-left{
+	height:50px;
+	display: inline-block;
+}
+.header-userinfo{
+	margin-left: 10px;
+	padding: 6px 18px 6px 6px;
+	background: #32415a url(img/userinfoarrow.png) no-repeat right center;
+	border-radius: 2px;
+	float: right;
+	border-bottom: 1px solid #445775;
+	box-shadow: inset 1px 1px 2px #2b384e;
+	cursor: pointer;
+}
+.header-userinfo:hover { background-color: #2d3b53; }
+.header-userinfo img {
+	border: 1px solid #b9c1ce;
+	vertical-align: middle;
+}
+.header-userinfo span {
+	color: #b9c2cf;
+	display: inline-block;
+	padding: 0 5px;
+	font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif;
+}
+.setting-drop {
+	padding: 10px;
+	min-width: 130px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	display: none;
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	color:rgb(60, 60, 60);
+	z-index: 200;
+}
+
+.setting-drop .avatar {
+	float: left;
+}
+.userdata {
+	margin-left: 10px;
+}
+.userdata h4 { 
+	color: #2d3c54; 
+	display: inline-block; 
+}
+.userdata .email { 
+	color: #999; 
+	font-size: 11px; 
+	display: inline-block; 
+}
+.userdata ul { 
+	list-style: none; 
+	margin-top: 10px; 
+}
+.userdata ul li { 
+	display: block; 
+	margin-bottom: 1px; 
+}
+.userdata ul li:last-child { 
+	margin-bottom: 0; 
+}
+.userdata ul li a { 
+	display: block; 
+	padding: 5px; 
+	background: #f7f7f7; 
+	color: rgb(131, 127, 127);
+	border-radius: 2px; 
+}
+.userdata ul li a:hover { 
+	background: #3F6288; 
+	color: #fff;
+	text-decoration: none 
+}
+
+.changetheme {
+	position: relative;
+	font-size: 11px;
+}
+.changetheme a {
+	display: inline-block;
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.changetheme a:hover {
+	border:1px solid rgb(249, 25, 25);
+}
+.changetheme a.default {
+	background: #CDCDD7;
+}
+.changetheme a.black {
+	background: black;
+}
+.changetheme a.blue {
+	background: blue;
+}
+.changetheme a.contrast {
+	background: #ff4800;
+}
+.changetheme a.custombg {
+	background: #666;
+}
+
+.product-drop {
+	border: 1px solid rgb(221, 220, 220);
+  	top: 130px;
+  	right: 131px;
+}
+#productDrop .product-item-cur {
+	cursor: default;
+	background: #3F6288; 
+	color: #fff;
+	text-decoration: none 
+}

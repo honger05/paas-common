@@ -1,0 +1,181 @@
+/**
+*  clui-dialog
+*/
+.clui-dialog {
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    background-clip: padding-box;
+    outline: 0;
+    position: absolute;
+    z-index: 1070;
+}
+.clui-dialog .clui-common-header {
+    padding: 15px;
+    font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2,"Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: move;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.clui-dialog .clui-common-body {
+    padding: 15px;
+}
+.clui-dialog .clui-common-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.clui-dialog a.clui-close {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1;
+}
+.clui-dialog .clui-ext-close-x {
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    border: none;
+}
+
+/*
+ * clui-message
+ */
+.clui-message{
+    padding: 10px 12px;
+}
+.clui-message .clui-common-header {
+    padding: 0;
+    border-bottom: none;
+}
+.clui-message .clui-common-body {
+    padding: 10px 30px 15px 0;
+}
+.clui-message .clui-common-body .x-icon {
+    float: left;
+}
+.clui-message .clui-common-content {
+    margin-left: 40px;
+    margin-right: 10px;
+    line-height: 25px;
+}
+.clui-message .clui-common-footer {
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid rgb(139, 109, 109);
+	padding-top: 5px;
+}
+
+/*
+ * clui-icon
+ */
+.x-icon {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center;
+    height: 22px;
+    width: 22px;
+    overflow: hidden;
+    line-height: 1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    border: 1px solid transparent;
+    cursor: inherit;
+}
+.x-icon-info, .x-icon-question{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.x-icon-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.x-icon-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.x-icon-error {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.x-icon-normal {
+    text-shadow: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+/*
+ * ui-mask
+ */
+.clui-mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #181515;
+    opacity: 0.5;
+    z-index: 999;
+}
+
+/*
+ * ui-button
+ */
+.button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 20px;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.button-primary {
+    color: #fff;
+    background-color: #6cb5f4;
+    border-color: #54a9f2;
+}
+
+.clui-dialog .clui-common-footer .btn+.btn {
+	margin-left: 5px;
+	margin-bottom: 0;
+}
